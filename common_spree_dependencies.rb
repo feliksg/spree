@@ -9,7 +9,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # # temp Rails 6 gems
 gem 'acts-as-taggable-on', github: 'mbleigh/acts-as-taggable-on', branch: 'master'
-gem 'awesome_nested_set', '~> 3.1.4', github: 'collectiveidea/awesome_nested_set', branch: 'master'
+gem 'awesome_nested_set', github: 'collectiveidea/awesome_nested_set', branch: 'master'
 gem 'ransack', github: 'activerecord-hackery/ransack', branch: 'vrodokanakis-support_rails_6'
 
 platforms :jruby do
