@@ -8,7 +8,7 @@ gem 'sqlite3', '~> 1.4.0', platforms: [:ruby, :mingw, :mswin, :x64_mingw]
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 # # temp Rails 6 gems
-gem 'acts-as-taggable-on', '~> 6.0.1', github: 'mbleigh/acts-as-taggable-on', branch: 'master'
+gem 'acts-as-taggable-on', github: 'mbleigh/acts-as-taggable-on', branch: 'master'
 gem 'awesome_nested_set', '~> 3.1.4', github: 'collectiveidea/awesome_nested_set', branch: 'master'
 
 platforms :jruby do
